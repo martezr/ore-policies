@@ -1,0 +1,14 @@
+---
+name: Corporate Baseline
+description: The corporate baseline security profile that applies to all platform deployments
+enabled: true
+policy_version: 1.0
+ore_version: 4.0
+url: ""
+rules:
+  - name: zuser_account_lockout
+    enabled: true
+    categories: [Level 1]
+  - name: enforcemfa
+    enabled: true
+    categories: [Level 2]

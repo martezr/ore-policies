@@ -1,8 +1,0 @@
----
-name: vm_tagging
-description: Enable tagging of VMs for better organization and management.
-enabled: true
-rules:
-  - name: vm_tagging
-    enabled: true
-    severity: low
