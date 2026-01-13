@@ -16,7 +16,7 @@ policy_requirement := "8.0.12"
 
 violations contains message if {
 
-	input.manager_version == policy_requirement
+	input.manager_version != policy_requirement
 
 	annotation := rego.metadata.rule()
 	message := {
