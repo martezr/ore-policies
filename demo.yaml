@@ -15,3 +15,9 @@ rules:
   - name: enforcemfa
     enabled: true
     categories: [Level 2]
+  - name: enforce_instance_tags
+    enabled: true
+    categories: [Level 1]
+  - name: manager_version
+    enabled: true
+    categories: [Level 1]
